@@ -18,3 +18,22 @@ int main(){
 		cin >> A[i];
 		jumlah=+jumlah + A[i];
 	}
+	rata=jumlah/mhs;
+  cout << endl;
+  cout << "Nama Dosen : ";
+  cin >> dosen;
+  cout << "Nama Mata Kuliah : ";
+  cin >> matkul;
+  cout << endl;
+  cout << "-----------------------------------------------\n";
+  cout << "               TAMPILAN NILAI\n";
+  cout << "-----------------------------------------------\n";
+	int B[mhs];
+	for(int i=0; i<mhs; i++){
+		cout<<"mahasiswa ke " << i << " : " << A[i] << endl;
+    }
+  cout << "-----------------------------------------------------\n";
+  cout << "Nilai minimum : \n";
+  cout << "Nilai maksimum : \n";
+  cout << "Nilai rata-rata : " << rata;
+  }
